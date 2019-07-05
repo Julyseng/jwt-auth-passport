@@ -3,8 +3,6 @@
 * Issue token
 * Apply token
 * Secure routes
-* SSL encryption
-* Password reset
 
 ## Issue token
 
@@ -508,11 +506,3 @@ We must be able to verify the authenticity of the token provided before we trust
       }
     }
     ```
-
-## HTTPS
-
-_forthcoming_
-
-## Password reset
-
-_forthcoming_
