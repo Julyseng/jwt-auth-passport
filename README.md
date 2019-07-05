@@ -71,12 +71,12 @@ Issuing a token is akin to registering for a new account. Once issued, the clien
 
     Apply a migration so your database has a `users` table like the one above.
 
-    <details><summary>Show terminal commands that use a yarn knex script</summary>
+    <details><summary>Show terminal commands that use a knex script</summary>
 
     ```shell
-    yarn knex migrate:make users
+    npx knex migrate:make users
     # edit the migration file to be like the one above
-    yarn knex migrate:latest
+    npx knex migrate:latest
     ```
 
     </details>
@@ -181,7 +181,7 @@ Issuing a token is akin to registering for a new account. Once issued, the clien
     <details><summary>Show terminal command</summary>
 
     ```shell
-    yarn add libsodium-wrappers
+    npm install libsodium-wrappers
     ```
 
     </details>
@@ -240,7 +240,7 @@ Issuing a token is akin to registering for a new account. Once issued, the clien
     <details><summary>Show terminal command</summary>
 
     ```shell
-    yarn add jsonwebtoken dotenv
+    npm install jsonwebtoken dotenv
     ```
 
     </details>
@@ -419,7 +419,7 @@ We must be able to verify the authenticity of the token provided before we trust
     <details><summary>Show terminal command</summary>
 
     ```shell
-    yarn add express-jwt
+    npm install express-jwt
     ```
 
     </details>
