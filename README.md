@@ -359,7 +359,7 @@ Issuing a token is akin to registering for a new account. Once issued, the clien
     const express = require('express')
 
     const {createUser} = require('../db/users')
-    const token = require(../auth/token)
+    const token = require('../auth/token')
 
     const router = express.Router()
 
